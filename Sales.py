@@ -37,7 +37,7 @@ for i, label in enumerate(data_filtered["ID"]):
         data_filtered["Beschaffung"].iloc[i] + x_offsets[i],
         data_filtered["Einzigartigkeit"].iloc[i] + y_offsets[i],
         str(label),
-        fontsize=15,  # Schriftgröße der Labels
+        fontsize=12,  # Schriftgröße der Labels
         ha='center',
         va='center'
     )
